@@ -1,0 +1,41 @@
+
+<html>
+  <head>
+    <title>Aplicación de identificación de sonido</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h2>DETECTOR DE ALARMAS</h2>
+      <p>Al detectarse algun sonido de emergencia, se activara la alarma visual avisando de que situacion se trata.</p>
+    </div>
+    <div class="main_div">
+      <center>
+        <br>
+        <button class="btn btn-warning" onclick="starClasification()"> ESCUCHAR</button>
+        <h3 id="result_label">Escucho: </h3>
+        <h4 id="result_confidence">Precisión: </h4>
+        <br>
+        <img src="Fuego.png" id="alrm1" width="300" height="300">
+        <img src="vidrio.png" id="alrm2" width="300" height="300">
+        <img src="ambulancia.png" id="alrm3" width="300" height="300">
+        <img src="tsunami.webp" id="alrm4" width="300" height="300">
+        <img src="sismo.webp" id="alrm5" width="300" height="300">
+      </center>
+    </div>
+    <div class="copy_rigth_footer">
+      Desarrollado por César Uises Perezmitre Romero y Romina Fernanda Aponte López 
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>

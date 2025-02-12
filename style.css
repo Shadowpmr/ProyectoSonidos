@@ -1,0 +1,29 @@
+body{
+    background: rgb(255, 242, 242);
+    font-family:"Madimi One", sans-serif ;
+}
+
+.header_div{
+    background: white;
+    color: red;
+}
+
+.main_div button{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.copy_rigth_footer{
+    position: fixed;
+    color: rgb(255, 105, 105);
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(58, 40, 58);
+}
